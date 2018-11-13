@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.3)
-    fakes3 (1.2.1)
+    fakes3 (2.0.0)
       builder
       thor
       xml-simple
