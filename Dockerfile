@@ -4,8 +4,9 @@ MAINTAINER Kris Williams <kris.williams@gliffy.com>
 ADD Gemfile /
 ADD Gemfile.lock /
 ##perso
-RUN apk update -y 
-RUN apk upgrade -U -a -y
+RUN apk update
+RUN apk upgrade 
+#-U -a 
 RUN bundle update
 #
 RUN bundle install
