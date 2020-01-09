@@ -4,7 +4,7 @@ MAINTAINER Kris Williams <kris.williams@gliffy.com>
 ADD Gemfile /
 ADD Gemfile.lock /
 ##perso
-RUN apk add gcc libcurl4-openssl-dev libxml2-dev -y
+RUN apk add -u gcc libcurl4-openssl-dev libxml2-dev -y
 RUN bundle update
 #
 RUN bundle install
